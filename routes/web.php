@@ -23,6 +23,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/tentangkami', [HomeController::class, 'tentangkami']);
+Route::get('/kontakkami', [HomeController::class, 'kontakkami']);
 
 Route::middleware('auth')->group(function () {
     Route::get('dashboard', function () {

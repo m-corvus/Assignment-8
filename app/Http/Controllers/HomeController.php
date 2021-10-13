@@ -7,7 +7,15 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-        return view('welcome');
+        return view('front.index');
+    }
+
+    public function tentangkami() {
+        return view('front.tentangkami');
+    }
+
+    public function kontakkami() {
+        return view('front.kontakkami');
     }
 
     public function portofolio() {
