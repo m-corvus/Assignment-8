@@ -1,20 +1,6 @@
 <?php
 
 return [
-    'mysql' => [
-        'driver' => 'mysql',
-        'host' => env('DB_HOST', 'db4free.net'),
-        'port' => env('DB_PORT', '3306'),
-        'database' => env('DB_DATABASE', 'deploy_heroku'),
-        'username' => env('DB_USERNAME', 'admindeploy'),
-        'password' => env('DB_PASSWORD', 'AdminDeploy2021'),
-        'unix_socket' => env('DB_SOCKET', ''),
-        'charset' => 'utf8mb4',
-        'collation' => 'utf8mb4_unicode_ci',
-        'prefix' => '',
-        'strict' => true,
-        'engine' => null,
-    ],
     /*
      * DataTables search options.
      */
